@@ -1,51 +1,41 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+Quiz Interativo: Vigilância Ambiental e Controle de Doenças ;)
 
-## 🚀 Introdução
+📒 Descrição
 
-> Woooow! Look at this 👀
+Um quiz interativo e responsivo sobre Vigilância Ambiental e Controle de Doenças, criado para fins educacionais e de exposição.
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+O projeto consiste em um único arquivo HTML que funciona 100% offline. Ele seleciona aleatoriamente 10 perguntas de um banco total de 20, desafiando o usuário com um cronômetro de 15 segundos por questão. Ao final, exibe um feedback personalizado baseado no desempenho (acima ou abaixo de 50% de acertos).
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+🤖 Tecnologias Utilizadas
 
-### Objetivos
+IA Generativa: Google Gemini (utilizado para geração de código, revisão, e brainstorming das perguntas).
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+Linguagens: HTML5, CSS3, JavaScript (ES6+).
 
-### Template
+Framework/Biblioteca: Tailwind CSS (para o design responsivo e moderno).
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+🧐 Processo de Criação
 
-## 📒 Descrição
-Breve descrição do seu projeto
+O projeto foi desenvolvido de forma iterativa, em colaboração direta com o Google Gemini.
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+Conceituação: A ideia inicial era um quiz sobre o tema, com um banco de 20 perguntas e seleção aleatória de 10 por rodada.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Features de Jogo: Adicionamos um cronômetro de 15 segundos por questão para tornar o jogo mais dinâmico.
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
+Pivô (Offline): O projeto foi adaptado de uma versão inicial online (que usava Firebase para ranking) para uma versão 100% offline, garantindo o uso em qualquer ambiente, como exposições sem acesso à internet.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+Refinamento de UX: Incluímos uma tela de início para melhorar o fluxo do usuário e uma tela de resultado com mensagens de feedback personalizadas (Parabéns/Motivação) baseadas na pontuação.
 
-### Exemplos e Insigths
+Design: O design foi construído com Tailwind CSS para garantir uma interface limpa, moderna (em tons de verde) e totalmente responsiva.
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+🚀 Resultados
 
-## Links Interessantes
+O resultado final é um arquivo index.html único, leve (menos de 20KB sem o Tailwind) e totalmente autônomo (standalone).
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+O quiz é uma ferramenta educacional eficaz e portátil, ideal para eventos e exposições, rodando instantaneamente em qualquer navegador moderno, seja desktop ou mobile.
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+💭 Reflexão (Opcional)
+
+O desafio foi utilizar a IA (Gemini) não apenas para gerar o código-base, mas para refinar iterativamente a lógica do JavaScript (como o timer, a seleção aleatória e as transições de tela) e o design (Tailwind CSS) em um único arquivo.
+
+Conseguir um produto 'natty' (estiloso e funcional) 100% offline, que equilibra estética e performance, demonstra o poder da colaboração humano-IA no desenvolvimento rápido de protótipos funcionais.
